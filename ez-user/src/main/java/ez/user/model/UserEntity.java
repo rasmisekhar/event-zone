@@ -14,7 +14,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @Builder
 public class UserEntity extends BaseEntityDetails {
-
+  //For User Details
   private String userType;
   private String name;
   private String mobile;
