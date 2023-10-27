@@ -8,4 +8,5 @@ import lombok.Data;
 @MappedSuperclass
 public class BaseEntity {
   @Id private String uuid;
+  // Dummy change
 }
