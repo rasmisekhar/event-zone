@@ -21,6 +21,7 @@ public class UserController {
    *
    * @param userDto New user info
    */
+  //user-service/v1/create-user
   @PostMapping("create-user")
   public ResponseEntity<UserDto> createUser(@RequestBody UserDto userDto) {
 
